@@ -1,11 +1,7 @@
-// Import stylesheets
-import './style.css';
-import { Fireworks } from 'fireworks-js';
-
-const canvas = document.getElementById('app');
+const canvas = document.getElementById("app");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-const fireworks = new Fireworks(canvas, {
+const fireworks = new Fireworks.default(canvas, {
   brightness: {
     min: 30,
     max: 70,
