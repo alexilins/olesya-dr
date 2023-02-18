@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/night-forest_1308-69877.jpg?w=2000&t=st=1676717104~exp=1676717704~hmac=1577afbe3881781cc9fb47ee82a32cb9a119d37f82793e8ef7314c31cb1d9801');
+  background-size: cover;
+}
+
+h1 {
+  position: fixed;
+  bottom: 1vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: 'Marck Script', cursive;
+  font-size: 11vmin;
+  text-align: center;
+  background-color: #fd1d1d;
+  background-image: linear-gradient(
+    45deg,
+    rgba(156, 252, 248, 1) 11.2%,
+    rgba(110, 123, 251, 1) 91.1%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+#app {
+  width: 100vw;
+  height: 100%;
+}
