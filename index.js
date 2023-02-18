@@ -1,3 +1,8 @@
+window.onload = () => {
+  const loader = document.querySelector(".loader-container");
+  loader.classList.add("fade-out");
+};
+
 const canvas = document.getElementById("app");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
